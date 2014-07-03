@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'DOS';
+    font-style: normal;
+    font-weight: normal;
+    src: url('fonts/Fixedsys500c.eot');
+    src: local('☺'), url('fonts/Fixedsys500c.woff') format('woff'), url('fonts/Fixedsys500c.ttf') format('truetype'), url('fonts/Fixedsys500c.svg') format('svg');
+}
+
+body {
+    margin: 0;
+    font-family: DOS, Monaco, Menlo, Consolas, "Courier New", monospace;
+    font-size: 18px;
+    line-height: 20px;
+    color: #bbbbbb;
+    background-color: #000084;
+}
+
+a {
+    color: #fefe54;
+    text-decoration: none;
+}
+
+a:hover,
+a:focus {
+    color: #fefe54;
+    background: #aa5500;
+}
+
+/*
+.row {
+  margin-left: -16px;
+  *zoom: 1;
+}
+
+.row:before,
+.row:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+.row:after {
+  clear: both;
+}
+
+[class*="span"] {
+  float: left;
+  min-height: 1px;
+  margin-left: 16px;
+}*/
